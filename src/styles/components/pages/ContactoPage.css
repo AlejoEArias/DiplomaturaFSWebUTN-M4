@@ -1,0 +1,52 @@
+.contacto {
+    display: flex;
+    gap: 100px;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos ul .negrita {
+    font-weight: bold;
+}
+
+.datos ul {
+    line-height: 25px;
+}
+
+.datos iframe {
+    margin-top: 85px;
+    margin-bottom: 28px;
+}
+
+.formulario p input,
+.formulario p textarea {
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    padding: 6px 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.formulario p textarea {
+    resize: none;
+    height: 100px;
+}
+
+.formulario input[type="submit"] {
+    background-color: rgba(255, 208, 0, 0.938);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: darkgoldenrod;
+}

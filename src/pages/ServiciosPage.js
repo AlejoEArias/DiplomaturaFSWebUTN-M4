@@ -1,6 +1,8 @@
+import '../styles/components/pages/ServiciosPage.css'
 const ServiciosPage = (props) => {
     return (
         <main className="holder">
+            <div className="servicios"></div>
             <div className="servicios">
                 <img src="img/Menu Ejecutivo.jpg" alt="menu ejecutivo" />
                 <div className="info">

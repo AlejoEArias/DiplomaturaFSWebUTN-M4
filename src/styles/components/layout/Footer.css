@@ -1,0 +1,12 @@
+footer {
+    background-color: rgb(97, 28, 31);
+    color: darkgoldenrod;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    clear: both;
+}
+
+footer .negrita {
+    font-weight: 700;
+}

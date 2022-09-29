@@ -1,0 +1,49 @@
+.home-img{
+    margin-top: -50px;
+}
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.valoraciones {
+    width: 25%;
+}
+
+.columna {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.bienvenidos p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.valoracion {
+    background-color: rgb(97, 28, 31);
+    padding: 20px;
+}
+
+.valoracion .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.valoracion .cliente {
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    color: white;
+    margin-top: 15px;
+}

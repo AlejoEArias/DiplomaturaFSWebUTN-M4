@@ -1,3 +1,4 @@
+import '../styles/components/pages/ProductosPage.css'
 const ProductosPage = (props) => {
     return (
         <main className="holder">

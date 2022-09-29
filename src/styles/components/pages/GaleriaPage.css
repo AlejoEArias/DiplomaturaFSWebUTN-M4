@@ -1,0 +1,14 @@
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 30%;
+    padding: 0.3em;
+    box-sizing: border-box;
+    border: 3px solid darkgoldenrod;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
