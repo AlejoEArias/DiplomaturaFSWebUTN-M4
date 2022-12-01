@@ -10,6 +10,7 @@ import NosotrosPage from './pages/NosotrosPage';
 import ProductosPage from './pages/ProductosPage';
 import ServiciosPage from './pages/ServiciosPage';
 import GaleriaPage from './pages/GaleriaPage';
+import NovedadesPage from './pages/NovedadesPage';
 import ContactoPage from './pages/ContactoPage';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='productos' element={<ProductosPage />} />
           <Route path='servicios' element={<ServiciosPage />} />
           <Route path='galeria' element={<GaleriaPage />} />
+          <Route path='novedades' element={<NovedadesPage />} />
           <Route path='contacto' element={<ContactoPage />} />
         </Routes>
       </BrowserRouter>
